@@ -51,7 +51,7 @@ class SnsAppState extends State<SnsApp> {
             return MaterialPageRoute(builder: (context) => const HomeScreen());
         }
       },
-      home: const SignupScreen(),
+      home: const SigninScreen(),
     );
   }
 }

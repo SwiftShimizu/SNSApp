@@ -6,4 +6,10 @@ class AuthRepository {
         .signUp(email: email, password: password, data: {'name': name});
     return response.user;
   }
+
+  Future<User?> signin(String email, String password) async {
+    final response = await Supabase.instance.client.auth
+        .signInWithPassword(email: email, password: password);
+    return response.user;
+  }
 }
