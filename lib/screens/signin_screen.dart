@@ -41,13 +41,13 @@ class SigninScreenState extends State<SigninScreen> {
                       ),
                     ),
                     const SizedBox(height: 16.0),
-                    FormTextField(
+                    const FormTextField(
                       label: 'Email',
                       hintText: 'Enter your email',
                       keyboardType: TextInputType.emailAddress,
                     ),
                     const SizedBox(height: 16.0),
-                    FormTextField(
+                    const FormTextField(
                       label: 'Password',
                       hintText: 'Enter your password',
                       obscureText: true,

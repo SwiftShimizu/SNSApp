@@ -20,22 +20,22 @@ class PostCard extends StatelessWidget {
           ),
         ],
       ),
-      child: Column(
+      child: const Column(
         crossAxisAlignment: CrossAxisAlignment.stretch,
         children: [
           ListTile(
-            leading: const Icon(
+            leading: Icon(
               Icons.person,
               size: 40,
             ),
-            title: Text("user name",
-                style: const TextStyle(color: Color(0xFF34D399))),
+            title:
+                Text("user name", style: TextStyle(color: Color(0xFF34D399))),
           ),
           Padding(
-            padding: const EdgeInsets.all(16.0),
+            padding: EdgeInsets.all(16.0),
             child: Text(
               "post content",
-              style: const TextStyle(
+              style: TextStyle(
                 color: Colors.black,
               ),
             ),

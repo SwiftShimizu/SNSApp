@@ -13,7 +13,7 @@ class Header extends StatelessWidget {
         PopupMenuButton<int>(
           icon: const Icon(Icons.menu, color: Colors.white),
           itemBuilder: (context) => [
-            PopupMenuItem<int>(
+            const PopupMenuItem<int>(
               value: 0,
               child: ListTile(
                 title: Text("user name"),

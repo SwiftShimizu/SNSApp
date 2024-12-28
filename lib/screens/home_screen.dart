@@ -20,7 +20,7 @@ class HomeScreenState extends State<HomeScreen> {
       body: Container(
         color: Colors.white,
         child: ListView(
-          children: [
+          children: const [
             PostInput(),
             PostCard(),
             PostCard(),

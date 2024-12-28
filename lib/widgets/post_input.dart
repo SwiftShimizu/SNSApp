@@ -16,15 +16,15 @@ class PostInput extends StatelessWidget {
       ),
       child: Column(
         children: [
-          TextField(
-            decoration: const InputDecoration(
+          const TextField(
+            decoration: InputDecoration(
               hintText: "What's on your mind?",
               border: OutlineInputBorder(),
               focusedBorder: OutlineInputBorder(
                 borderSide: BorderSide(color: Color(0xFF34D399)),
               ),
             ),
-            style: const TextStyle(color: Colors.black),
+            style: TextStyle(color: Colors.black),
             maxLines: 3,
           ),
           const SizedBox(height: 8.0),
